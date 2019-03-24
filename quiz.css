@@ -1,0 +1,74 @@
+body {
+}
+.grid {
+  width: 900px;
+  height: 650px;
+  margin: 600px auto;
+  border: 4px solid darkgray;
+  border-radius: 70px;
+  padding: 20px 50px 50px 50px;
+  box-shadow: 10px 15px 5px lightgrey;
+}
+.grid h2 {
+  background-color: #b40639;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  padding: 2px 0px;
+  border-radius: 70px;
+}
+.grid #question {
+  font-size: 30px;
+  color: #5a6772;
+}
+.buttons {
+  margin-top: 100px;
+  margin-left: 15px;
+}
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  background-color: #fff;
+  width: 400px;
+  height: 50px;
+  color: #b40639;
+  border: 1px solid #1d3c6a;
+  border-radius: 70px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  background-color: #b40639;
+  width: 400px;
+  height: 50px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 70px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+#progress {
+  color: #b40639;
+  font-size: 20px;
+}
+
+#choice0,
+#choice1,
+#choice2,
+#choice3 {
+  font-size: 20px;
+}
+#gameover {
+  margin-top: 200px;
+  text-align: center;
+}
+#score {
+  text-align: center;
+}
