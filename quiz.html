@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <title>SDG Quiz</title>
     <link rel="stylesheet" href="quiz.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="grid">
@@ -11,15 +18,19 @@
         <h2>SDG QUIZ</h2>
         <hr style="margin: 50px 0; color:lightgray; height: 5px;" />
         <p id="question"></p>
-        <div class="buttons">
-          <button id="btn0"><span id="choice0"></span></button>
-          <button id="btn1"><span id="choice1"></span></button>
-          <button id="btn2"><span id="choice2"></span></button>
-          <button id="btn3"><span id="choice3"></span></button>
+        <div class="row buttons">
+          <button class="col col-4" id="btn0">
+            <span id="choice0"></span>
+          </button>
+          <div class="col col-3"></div>
+          <button class="col col-4" id="btn1">
+            <span id="choice1"></span>
+          </button>
         </div>
+
         <hr style="margin-top: 90px; color:lightgray; height: 5px;" />
         <footer>
-          <p id="progress">question X of Y</p>
+          <p id="progress"></p>
         </footer>
       </div>
     </div>

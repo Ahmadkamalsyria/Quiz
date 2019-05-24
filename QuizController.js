@@ -1,7 +1,8 @@
-function Quiz(questions) {
+function Quiz(questions, id) {
   this.questions = questions;
   this.score = 0;
   this.questionIndex = 0;
+  this.quizId = id;
 }
 Quiz.prototype.currentQuestion = function() {
   return this.questions[this.questionIndex];
